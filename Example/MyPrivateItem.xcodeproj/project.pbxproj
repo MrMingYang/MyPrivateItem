@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AAF0927B84FCFF18EF045BB3 /* Pods_MyPrivateItem_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6649EA42469D0751C4ABF9 /* Pods_MyPrivateItem_Tests.framework */; };
+		D0C41FA62339174A00DD3D78 /* PTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C41FA52339174A00DD3D78 /* PTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A6649EA42469D0751C4ABF9 /* Pods_MyPrivateItem_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPrivateItem_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C41FA42339174A00DD3D78 /* PTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTest.h; sourceTree = "<group>"; };
+		D0C41FA52339174A00DD3D78 /* PTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTest.m; sourceTree = "<group>"; };
 		DE0F0730ED57CD5FC53C37EC /* Pods_MyPrivateItem_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPrivateItem_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8ABFDE1167238813C46EBD9 /* Pods-MyPrivateItem_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPrivateItem_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPrivateItem_Tests/Pods-MyPrivateItem_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -180,6 +183,8 @@
 			children = (
 				5D4895D0549E0797A031D962 /* MyPrivateItem.podspec */,
 				1949BA496A6E179B929E371E /* README.md */,
+				D0C41FA42339174A00DD3D78 /* PTest.h */,
+				D0C41FA52339174A00DD3D78 /* PTest.m */,
 				33352302290E5C6A39CC8B59 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
@@ -405,6 +410,7 @@
 			files = (
 				6003F59E195388D20070C39A /* PAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* PViewController.m in Sources */,
+				D0C41FA62339174A00DD3D78 /* PTest.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
