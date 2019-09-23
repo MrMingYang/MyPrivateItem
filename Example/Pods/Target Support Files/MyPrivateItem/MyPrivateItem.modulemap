@@ -1,0 +1,6 @@
+framework module MyPrivateItem {
+  umbrella header "MyPrivateItem-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "MyPrivateItem",
+  "version": "0.1.0",
+  "summary": "A short description of MyPrivateItem.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/447258925@qq.com/MyPrivateItem",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "447258925@qq.com": "447258925@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/447258925@qq.com/MyPrivateItem.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyPrivateItem/Classes/**/*"
+}

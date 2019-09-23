@@ -1,0 +1,16 @@
+PODS:
+  - MyPrivateItem (0.1.0)
+
+DEPENDENCIES:
+  - MyPrivateItem (from `../`)
+
+EXTERNAL SOURCES:
+  MyPrivateItem:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MyPrivateItem: 3415f222390cc391f294e3247967f2f2d98a6d00
+
+PODFILE CHECKSUM: 089666b89752ebfafa4436839a92e05ca88fe30b
+
+COCOAPODS: 1.4.0
